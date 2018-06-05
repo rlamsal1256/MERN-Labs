@@ -1,0 +1,34 @@
+{
+  "name": "mern-labs",
+  "version": "1.0.0",
+  "description": "\"# MERN-labs\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel src --out-dir dist",
+    "babelw": "babel src --watch --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlamsal1256/MERN-labs.git"
+  },
+  "author": "Rupak Lamsal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rlamsal1256/MERN-labs/issues"
+  },
+  "homepage": "https://github.com/rlamsal1256/MERN-labs#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "http-server": "^0.11.1",
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
+}
