@@ -3,11 +3,15 @@ import "./App.css";
 import { connect } from "react-redux";
 import { setSelectedArticle } from "./actions";
 
+
+
 class App extends Component {
   render() {
     const selectedArticle = this.props.articles[this.props.selectedArticle]
       ? this.props.articles[this.props.selectedArticle].content
       : "none";
+
+
 
     return (
       <div>
